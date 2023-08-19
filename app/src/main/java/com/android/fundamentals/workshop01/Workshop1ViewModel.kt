@@ -36,7 +36,7 @@ class Workshop1ViewModel(
                     else -> {
                         val newToken = UUID.randomUUID().toString()
                         // TODO 02: create updateUserToken fun that will add or update user token in SP
-
+                        // new commit
                         LoginResult.Success()
                     }
                 }
